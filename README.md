@@ -43,17 +43,7 @@
 
 https://github.com/RAIN-SV/ai-labeler/releases/download/v1.0.0/demo.mp4
 
-### 截图预览
-
-| 一级首页 | 二级工作台 |
-|---------|-----------|
-| ![首页](docs/screenshots/home.png) | ![工作台](docs/screenshots/workbench.png) |
-
-| 模型配置面板 | 导出中心 |
-|------------|---------|
-| ![模型配置](docs/screenshots/model-config.png) | ![导出](docs/screenshots/export.png) |
-
-> 📝 *截图文件放在 `docs/screenshots/` 目录*
+<!-- 截图预览（待补充）-->
 
 ---
 
