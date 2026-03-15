@@ -37,7 +37,11 @@
 
 ## 🎬 功能演示
 
-> 📹 **演示视频：** *(添加录屏 GIF 或 YouTube/Bilibili 链接)*
+> 📹 **演示视频（点击封面播放）**
+
+[![AI Labeler 演示视频](https://github.com/RAIN-SV/ai-labeler/releases/download/v1.0.0/demo.mp4)](https://github.com/RAIN-SV/ai-labeler/releases/download/v1.0.0/demo.mp4)
+
+https://github.com/RAIN-SV/ai-labeler/releases/download/v1.0.0/demo.mp4
 
 ### 截图预览
 
