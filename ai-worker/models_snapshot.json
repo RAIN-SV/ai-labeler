@@ -1,0 +1,253 @@
+{
+  "updatedAt": "2026-03-15T10:10:34Z",
+  "updatedAtCn": "2026年3月15日 10:10 UTC",
+  "source": "Artificial Analysis (https://artificialanalysis.ai/leaderboards/models)",
+  "dataSource": "fallback (built-in, last known values)",
+  "fetchedBy": "fetch_aa_models.py",
+  "presets": [
+    {
+      "label": "Gemini 2.5 Pro",
+      "icon": "🏆",
+      "tag": "综合最强",
+      "desc": "AA Intelligence 35，124 t/s，$1.25/M 输入，1M 上下文，支持 图/视频/音频",
+      "rank": "AA Intelligence 35",
+      "recommend": [
+        "image",
+        "video",
+        "audio"
+      ],
+      "apiKeyUrl": "https://aistudio.google.com/apikey",
+      "intelligence": 35,
+      "speedTps": 124.0,
+      "priceInput": 1.25,
+      "priceOutput": 10.0,
+      "contextWindow": 1000000,
+      "knowledgeCutoff": "2025-01",
+      "supportsImage": true,
+      "supportsVideo": true,
+      "supportsAudio": true,
+      "config": {
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "visionModel": "gemini-2.5-pro-preview-03-25",
+        "textModel": "gemini-2.5-pro-preview-03-25",
+        "videoMode": "native"
+      }
+    },
+    {
+      "label": "Gemini 2.5 Flash",
+      "icon": "⚡",
+      "tag": "极速性价比",
+      "desc": "AA Intelligence 27，226 t/s，$0.30/M 输入，1M 上下文，支持 图/视频/音频",
+      "rank": "AA Intelligence 27",
+      "recommend": [
+        "image",
+        "video",
+        "audio",
+        "text"
+      ],
+      "apiKeyUrl": "https://aistudio.google.com/apikey",
+      "intelligence": 27,
+      "speedTps": 226.0,
+      "priceInput": 0.3,
+      "priceOutput": 2.5,
+      "contextWindow": 1000000,
+      "knowledgeCutoff": "2025-01",
+      "supportsImage": true,
+      "supportsVideo": true,
+      "supportsAudio": true,
+      "config": {
+        "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "visionModel": "gemini-2.5-flash-preview-04-17",
+        "textModel": "gemini-2.5-flash-preview-04-17",
+        "videoMode": "native"
+      }
+    },
+    {
+      "label": "Claude 3.7 Sonnet",
+      "icon": "🧠",
+      "tag": "图文推荐",
+      "desc": "AA Intelligence 35，$3.00/M 输入，200k 上下文，支持 图",
+      "rank": "AA Intelligence 35",
+      "recommend": [
+        "image",
+        "text"
+      ],
+      "apiKeyUrl": "https://console.anthropic.com/settings/keys",
+      "intelligence": 35,
+      "speedTps": null,
+      "priceInput": 3.0,
+      "priceOutput": 15.0,
+      "contextWindow": 200000,
+      "knowledgeCutoff": "2024-10",
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "config": {
+        "baseUrl": "https://api.anthropic.com/v1",
+        "visionModel": "claude-3-7-sonnet-20250219",
+        "textModel": "claude-3-7-sonnet-20250219",
+        "videoMode": "frames"
+      }
+    },
+    {
+      "label": "GPT-4.1",
+      "icon": "🤖",
+      "tag": "图像理解",
+      "desc": "AA Intelligence 26，87 t/s，$2.00/M 输入，1M 上下文，支持 图",
+      "rank": "AA Intelligence 26",
+      "recommend": [
+        "image",
+        "text"
+      ],
+      "apiKeyUrl": "https://platform.openai.com/api-keys",
+      "intelligence": 26,
+      "speedTps": 87.0,
+      "priceInput": 2.0,
+      "priceOutput": 8.0,
+      "contextWindow": 1000000,
+      "knowledgeCutoff": "2024-05",
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "config": {
+        "baseUrl": "https://api.openai.com/v1",
+        "visionModel": "gpt-4.1",
+        "textModel": "gpt-4.1",
+        "videoMode": "frames"
+      }
+    },
+    {
+      "label": "Qwen2.5-VL 原生视频",
+      "icon": "🎬",
+      "tag": "视频推荐",
+      "desc": "32k 上下文，支持 图/视频",
+      "rank": "",
+      "recommend": [
+        "video",
+        "image"
+      ],
+      "apiKeyUrl": "https://bailian.console.aliyun.com/?apiKey=1#/api-key",
+      "intelligence": null,
+      "speedTps": null,
+      "priceInput": null,
+      "priceOutput": null,
+      "contextWindow": 32000,
+      "knowledgeCutoff": null,
+      "supportsImage": true,
+      "supportsVideo": true,
+      "supportsAudio": false,
+      "config": {
+        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "visionModel": "qwen2.5-vl-72b-instruct",
+        "textModel": "qwen-max",
+        "videoMode": "native"
+      }
+    },
+    {
+      "label": "Qwen-Omni Turbo",
+      "icon": "🎙️",
+      "tag": "音频推荐",
+      "desc": "支持 图/视频/音频",
+      "rank": "",
+      "recommend": [
+        "audio",
+        "video"
+      ],
+      "apiKeyUrl": "https://bailian.console.aliyun.com/?apiKey=1#/api-key",
+      "intelligence": null,
+      "speedTps": null,
+      "priceInput": null,
+      "priceOutput": null,
+      "contextWindow": null,
+      "knowledgeCutoff": null,
+      "supportsImage": true,
+      "supportsVideo": true,
+      "supportsAudio": true,
+      "config": {
+        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "visionModel": "qwen-omni-turbo",
+        "textModel": "qwen-omni-turbo",
+        "videoMode": "native"
+      }
+    },
+    {
+      "label": "硅基 Qwen2.5-VL",
+      "icon": "💎",
+      "tag": "国内中转",
+      "desc": "支持 图/视频",
+      "rank": "",
+      "recommend": [
+        "video",
+        "image"
+      ],
+      "apiKeyUrl": "https://cloud.siliconflow.cn/account/ak",
+      "intelligence": null,
+      "speedTps": null,
+      "priceInput": null,
+      "priceOutput": null,
+      "contextWindow": null,
+      "knowledgeCutoff": null,
+      "supportsImage": true,
+      "supportsVideo": true,
+      "supportsAudio": false,
+      "config": {
+        "baseUrl": "https://api.siliconflow.cn/v1",
+        "visionModel": "Qwen/Qwen2.5-VL-72B-Instruct",
+        "textModel": "Qwen/Qwen2.5-72B-Instruct",
+        "videoMode": "frames"
+      }
+    },
+    {
+      "label": "GPT-4o mini",
+      "icon": "💰",
+      "tag": "经济图像",
+      "desc": "AA Intelligence 13，40 t/s，$0.15/M 输入，128k 上下文，支持 图",
+      "rank": "AA Intelligence 13",
+      "recommend": [
+        "image"
+      ],
+      "apiKeyUrl": "https://platform.openai.com/api-keys",
+      "intelligence": 13,
+      "speedTps": 40.0,
+      "priceInput": 0.15,
+      "priceOutput": 0.6,
+      "contextWindow": 128000,
+      "knowledgeCutoff": "2023-10",
+      "supportsImage": true,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "config": {
+        "baseUrl": "https://api.openai.com/v1",
+        "visionModel": "gpt-4o-mini",
+        "textModel": "gpt-4o-mini",
+        "videoMode": "frames"
+      }
+    },
+    {
+      "label": "DeepSeek-V3",
+      "icon": "🌊",
+      "tag": "纯文本",
+      "desc": "AA Intelligence 22，$0.27/M 输入，128k 上下文",
+      "rank": "AA Intelligence 22",
+      "recommend": [
+        "text"
+      ],
+      "apiKeyUrl": "https://platform.deepseek.com/api_keys",
+      "intelligence": 22,
+      "speedTps": null,
+      "priceInput": 0.27,
+      "priceOutput": 1.1,
+      "contextWindow": 128000,
+      "knowledgeCutoff": null,
+      "supportsImage": false,
+      "supportsVideo": false,
+      "supportsAudio": false,
+      "config": {
+        "baseUrl": "https://api.deepseek.com/v1",
+        "visionModel": "deepseek-chat",
+        "textModel": "deepseek-chat",
+        "videoMode": "frames"
+      }
+    }
+  ]
+}
