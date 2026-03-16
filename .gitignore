@@ -18,6 +18,10 @@ ai-worker/*.pyo
 
 # ── Node / Next.js ───────────────────────────────────────
 frontend/node_modules/
+docs/node_modules/
+docs/package.json
+docs/package-lock.json
+docs/take_screenshots.mjs
 frontend/.next/
 frontend/out/
 frontend/build/
